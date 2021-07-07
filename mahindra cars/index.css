@@ -1,0 +1,410 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* css for header */
+.header{
+    height:60px;
+    width: 100%;
+    /* background-color:rgb(16, 16, 78); */
+    display: flex;
+    justify-content: center;
+    position: fixed;
+}
+.container{
+    width:90%;
+display: flex;
+    /* background-color: red; */
+}
+.header_container{
+    justify-content: space-between;
+}
+.logo{
+    height: 60px;
+    width:25%;
+    /* background-color: green; */
+    font-size:30px;
+    font-family:Segoe UI;
+    text-align:center;
+    font-weight: bold;
+    color: white;
+    line-height: 50px;
+}
+.nav{
+    height:60px;
+    width: 50%;
+    /* background-color: hotpink; */
+    display: flex;
+    
+}
+.nav-item{
+    height:60px;
+    width:50%;
+    /* background-color: grey; */
+    font-size: medium;
+    font-family: segeo UI;
+    text-align:center;
+    line-height: 60px;
+    color:whitesmoke;
+    cursor:pointer;
+    transition: .4s;
+}
+.nav-item:hover{
+    background-color: white;
+color:#4c3bd6;
+}
+/* css for banner */
+.banner{
+    height:95vh;
+    width:100%;
+    background-color: grey;
+     background-image:url('./ban.jpg ');
+     background-size: cover;
+
+}
+.overlay{
+    height: 95vh;
+    width: 100%;
+    background-color:rgba(0,0,0,.5);
+    display: flex;
+    align-items:center;
+    
+
+}
+.banner_text{
+    height:300px;
+    width:40%;
+    background-color:rgb(57,57,88,.7);
+    font-family: Segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.padd{  
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* background-color: navy; */
+}
+.banner-title{
+    font-size: 50px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    
+}
+.banner-desc{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    }
+
+.banner_btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color:white;
+    font-weight:bold;
+    font-family: seogo UI;
+    border:3px solid white;
+    margin-left: 10%;
+    cursor:pointer;
+    transition:.4s;
+}
+.banner_btn:hover{
+    background-color: white;
+    color:  rgb(7, 7, 82);
+    
+}
+/* css for services */
+.services{
+    padding-top:50px;
+    padding-bottom: 50px;
+    background-color: rgb(206, 201, 201);
+    display: flex;
+    align-items:center;
+     flex-direction: column;
+     font-family:Segeo UI;
+     /* justify-content: space-evenly; */
+}  
+.services_container{
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* display: flex; */
+}
+.service{ 
+    height:400px;
+    width:40%;
+    background-color: white;
+    display:flex;
+    margin-top: 20px;
+}
+.service_img{
+    height:400px;
+    width:40%;
+    /* background-color: yellow; */
+    display: flex;  
+    overflow: hidden;
+}
+.service_details{
+    height:400px;
+    width:60%;
+    /* background-color: tomato; */
+    display:flex;
+    align-items: center;
+}
+.service_padd{
+    padding:20px;
+}
+.service_btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    background-color:rgb(7, 7, 82) ;
+    color:white;
+    font-weight:bold;
+    font-family: seogo UI;
+    border:none;
+    margin-left: 10%;
+    cursor:pointer;
+    transition:.4s;
+}
+.service-title{
+    margin-bottom: 15px;
+}
+.service_desc{
+    margin-bottom:40px;
+
+}
+.about{
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(248, 230, 230);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: Segoe UI;
+    align-items: center;
+}
+.about_container{
+    margin-top:30px;
+line-height: 30px;
+display: inline;
+}
+.start-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color:rgb(54, 54, 119);
+}
+/* css for highlight */
+.highlight{
+    padding-top:50px ;
+    padding-bottom: 50px;
+    width:100%;
+    background-color:rgb(16, 16, 78) ;
+    display: flex;
+    justify-content: center;
+}
+.highlight_container{
+    justify-content: space-between;
+
+}
+.high-ele{
+    width:22%;
+    height: 230px;
+    background-color: rgba(10, 7, 7, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Segoe UI;
+    text-align: center;
+    color: white;
+}
+.high-title{
+    font-size:55px;
+    
+}
+.high-desc{
+    font-size: 25px;
+}
+.quote{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    width: 100%;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    font-family: Segoe UI;
+}
+.quote-container{
+    flex-direction: column;
+    align-items: center;
+}
+.quote-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.quote-btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    background-color:rgb(7, 7, 82) ;
+    color:white;
+    font-weight:bold;
+    font-family: seogo UI;
+    justify-content: center;
+    border:none;
+    /* margin-left: 10%; */
+    cursor:pointer;
+    transition:.4s;   
+}
+/* css for portfolio */
+.portfolio{
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    /* background-color: grey; */
+    font-family: Segoe UI; 
+}
+.portfolio-container{
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.project{
+    width: 25%;
+    height:400px;
+    display: flex;
+    /* background-color: indianred; */
+    
+}
+.project-1{
+    background-image: url('https://images.pexels.com/photos/1907784/pexels-photo-1907784.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' );
+    background-size: cover;
+}
+.project-2{
+    background-image: url('https://images.pexels.com/photos/248547/pexels-photo-248547.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' );
+    background-size: cover;
+    align-items: flex-end;
+}.project-3{
+    background-image: url('https://images.pexels.com/photos/239975/pexels-photo-239975.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' );
+    background-size: cover;
+    
+}
+.project-4{
+    background-image: url( 'https://images.pexels.com/photos/3783471/pexels-photo-3783471.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+    
+}
+.project-5{
+    background-image: url('https://images.pexels.com/photos/5098043/pexels-photo-5098043.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500 ');
+    background-size: cover;
+}
+.project-6{
+    background-image: url( 'https://images.pexels.com/photos/1837590/pexels-photo-1837590.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+    align-items: flex-end;
+
+}
+.project-7{
+    background-image: url( 'https://images.pexels.com/photos/2578033/pexels-photo-2578033.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-size: cover;
+}
+.project-8{
+    background-image: url('https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500' );
+    background-size: cover;
+    align-items: flex-end;
+}
+ .project-title{
+     color:white;
+     width:100%;
+     height:150px;
+     text-indent: 30px;
+     line-height: 200px;
+     background-color:rgba(10, 7, 7, 0.5);
+     cursor:pointer;
+     transition: .4s;
+}
+.project-title:hover{
+    height: 300px;
+}
+/* css for footer */
+.footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:#4c4848;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.footer-child{
+    height: 300px;
+    width:25%;
+    /* background-color: cadetblue; */
+    color:white;
+    font-family: Segoe UI;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.footer-child-1{
+    font-size: 20px;
+    align-items: center;
+}
+ul{
+    margin-top: 40px;
+}
+li{
+    list-style-type:none;
+    margin-bottom: 10px;
+}
+.first{
+    font-size: 22px;
+}
+.footer-child-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-container{
+    justify-content: space-between;
+    width:70%;
+}
+.social-icon{
+    height:60px;
+    width:60px;
+    /* background-color: white; */
+}
+.si1{
+    background-image: url('google.png');
+    background-size: cover;
+    /* height:65px; */
+    
+}
+.si2{
+    background-image: url('facebook.png');
+    background-size: cover;
+    /* height: 65px; */
+}
+.si3{
+    background-image: url('Instagram.png');
+    background-size: cover;
+    
+    
+}
+.si4{
+    background-image: url('Linkedin.png');
+    background-size: cover;
+}
